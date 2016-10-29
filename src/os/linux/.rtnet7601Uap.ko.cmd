@@ -1,0 +1,1 @@
+cmd_/home/programmer/mt7601u/src/os/linux/rtnet7601Uap.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/programmer/mt7601u/src/os/linux/rtnet7601Uap.ko /home/programmer/mt7601u/src/os/linux/rtnet7601Uap.o /home/programmer/mt7601u/src/os/linux/rtnet7601Uap.mod.o
