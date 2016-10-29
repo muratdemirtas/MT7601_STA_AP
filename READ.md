@@ -16,7 +16,7 @@ modprobe mt7601Uap
 
 modprobe rtnet7601Uap
 
-//start dhcp
+
 
 ifconfig ra0 up
 
@@ -24,7 +24,6 @@ ifconfig ra0 192.168.199.1
 
 dhcpd ra0
 
-forward packages to etho
 
 echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
 
